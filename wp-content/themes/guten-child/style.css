@@ -6,3 +6,7 @@
  Template:     guten
  Version:      1.0.9
 */
+
+.site-footer-bottom-bar-left {
+  display: none;
+}
