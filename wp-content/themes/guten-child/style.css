@@ -8,5 +8,5 @@
 */
 
 .site-footer-bottom-bar-left {
-  display: none;
+  display: none !important;
 }
