@@ -10,3 +10,6 @@
 .site-footer-bottom-bar-left {
   display: none !important;
 }
+img {
+  padding-right: 5px !important;
+}
