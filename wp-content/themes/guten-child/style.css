@@ -16,3 +16,11 @@ img {
 .main-navigation li a {
   font-size: 1.25rem !important;
 }
+.pt-cv-readmore, .pt-cv-wrapper .btn-success {
+  /* color: #000000 !important; */
+  background-color: #000000 !important;
+  border: none !important;
+}
+._self {
+  pointer-events: none !important;
+}
