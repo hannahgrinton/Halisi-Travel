@@ -13,3 +13,6 @@
 img {
   padding-right: 5px !important;
 }
+.main-navigation li a {
+  font-size: 1.25rem !important;
+}
