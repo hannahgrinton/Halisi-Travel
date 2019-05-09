@@ -7,20 +7,34 @@
  Version:      1.0.9
 */
 
+/* hide copyright */
 .site-footer-bottom-bar-left {
   display: none !important;
 }
+
+/* add padding to images */
 img {
   padding-right: 5px !important;
 }
+
+/* enlarge font size of main nav bar */
 .main-navigation li a {
   font-size: 1.25rem !important;
 }
+
+/* style read more button for content management plugin */
 .pt-cv-readmore, .pt-cv-wrapper .btn-success {
   /* color: #000000 !important; */
   background-color: #000000 !important;
   border: none !important;
 }
+
+/* turn off links to posts for content management plugin */
 ._self {
   pointer-events: none !important;
+}
+
+/* enlarge font size of footer text */
+.site-footer-widgets .widget ul li a {
+  font-size: 1.6rem !important;
 }
