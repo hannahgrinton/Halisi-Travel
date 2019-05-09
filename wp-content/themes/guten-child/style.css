@@ -35,6 +35,6 @@ img {
 }
 
 /* enlarge font size of footer text */
-.site-footer-widgets .widget ul li a {
+.site-footer-widgets .widget ul li a, .site-footer .widget a {
   font-size: 1.6rem !important;
 }
