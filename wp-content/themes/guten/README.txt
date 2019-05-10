@@ -87,6 +87,14 @@ View the theme settings under "Appearance" -> Customize.
 
 == Changelog ==
 
+#### 1.1.00
+* Styling tweaks/fixes
+* Added support & backwards compatibility for new wp_body_open hook
+* Fixed broken link to Recommended Resources
+* Removed deprecated code
+* Updated the language .pot file
+Premium: Updated Page Layout Imports
+
 #### 1.0.9
 * Styling tweaks/fixes
 * Added WPForms to recommended plugin in TGM

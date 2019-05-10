@@ -18,6 +18,7 @@
 <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
+<?php wp_body_open(); ?>
 <?php if ( get_theme_mod( 'guten-site-add-side-social', customizer_library_get_default( 'guten-site-add-side-social' ) ) ) : ?>
 	<div class="side-aligned-social hide-side-social <?php echo ( get_theme_mod( 'guten-side-social-look' ) ) ? sanitize_html_class( get_theme_mod( 'guten-side-social-look' ) ) : sanitize_html_class( 'guten-side-social-square' ); ?>">
 	<?php if ( is_page_template( 'template-floating-right-sidebar.php' ) && get_theme_mod( 'guten-site-add-side-social', customizer_library_get_default( 'guten-site-add-side-social' ) ) == 1 ) : ?>
