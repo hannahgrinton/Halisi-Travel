@@ -1089,7 +1089,7 @@ if ( ! class_exists( 'TGM_Plugin_Activation' ) ) {
 			// If we have notices to display, we move forward.
 			if ( ! empty( $message ) || $total_required_action_count > 0 ) {
 				krsort( $message ); // Sort messages.
-				$rendered = '<div class="tgm-custom-button"><span>Guten settings are built into the <a href="' . admin_url( 'customize.php' ) . '">Customizer</a></span> - <a href="' . admin_url() . '/themes.php?page=theme_info" class="tgm-custom-button">About the Guten theme</a><a href="https://gutentheme.org/go/recommend-resources/" target="_blank" class="tgm-custom-button">View our Recommended Resources</a></div><div class="tgm-note">Easily change the header layout under <a href="' . admin_url() . '/customize.php?autofocus[section]=guten-site-layout-section-header">Customize -> Guten Theme Settings -> Header</a></div>';
+				$rendered = '<div class="tgm-custom-button"><span>Guten settings are built into the <a href="' . admin_url( 'customize.php' ) . '">Customizer</a></span> - <a href="' . admin_url() . '/themes.php?page=theme_info" class="tgm-custom-button">About the Guten theme</a><a href="https://gutentheme.org/go/recommended-resources/" target="_blank" class="tgm-custom-button">View our Recommended Resources</a></div><div class="tgm-note">Easily change the header layout under <a href="' . admin_url() . '/customize.php?autofocus[section]=guten-site-layout-section-header">Customize -> Guten Theme Settings -> Header</a></div>';
 
 				// As add_settings_error() wraps the final message in a <p> and as the final message can't be
 				// filtered, using <p>'s in our html would render invalid html output.

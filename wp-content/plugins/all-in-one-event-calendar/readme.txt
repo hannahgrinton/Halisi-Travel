@@ -3,7 +3,7 @@ Contributors: uchu, calvinyeh, raquelleira, renatotbueno, domanb, elirenato, hub
 Tags: calendar, event, ical, feed, ics, icalendar, sync, aggregator, google, venue, calendar widget, events widget
 Requires at least: 3.5
 Tested up to: 5.2
-Stable tag: 2.5.39
+Stable tag: 2.5.40.1
 Requires PHP: 5.4
 License: GNU General Public License, version 3 (GPL-3.0)
 
@@ -123,6 +123,10 @@ You can help translate by going to [https://translate.time.ly](https://translate
 **[ai1ec exact_date="5-10-2017"]**
 
 == Changelog ==
+
+= Version 2.5.40 =
+* Updated: iCalcreator library has been updated to version 2.26.9.
+* Fixed: Import Feeds - Imported events with recurrence rules set weren't being imported correctly when using PHP 7.2.
 
 = Version 2.5.39 =
 * Fixed XSS Security vulnerability by sanitizing the event input.

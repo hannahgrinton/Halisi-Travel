@@ -4,7 +4,7 @@
  *
  * @package Guten
  */
-define( 'GUTEN_THEME_VERSION' , '1.0.9' );
+define( 'GUTEN_THEME_VERSION' , '1.1.00' );
 
 // Load WP included scripts
 require get_template_directory() . '/includes/inc/template-tags.php';
@@ -269,6 +269,7 @@ add_action( 'wp_head', 'guten_pingback_header' );
  */
 function guten_load_admin_script() {
 	wp_enqueue_style( 'guten-admin-css', get_template_directory_uri() . '/upgrade/css/admin-css.css', array(), GUTEN_THEME_VERSION );
+	wp_enqueue_script( 'guten-admin-js', get_template_directory_uri() . '/upgrade/js/admin.js', array('jquery'), GUTEN_THEME_VERSION );
 }
 add_action( 'admin_enqueue_scripts', 'guten_load_admin_script' );
 
@@ -590,26 +591,3 @@ function guten_set_widget_categories_dropdown_arg($args){
 	return $args;
 }
 add_filter( 'widget_categories_dropdown_args', 'guten_set_widget_categories_dropdown_arg' );
-
-/*
- * Notice for Page Layouts
- */
-function guten_page_layouts_notice() {
-	global $current_user;
-	$user_id = $current_user->ID;
-	
-	if (!get_user_meta($user_id, 'guten_page_layouts_notice_ignore')) {
-		echo '<div class="updated notice guten-notice-layouts"><p>'. __( 'Guten Premium now offers Elementor Page Layouts to import!<br /><br />Use the code <b><i>GUTENPRO</i></b> to <a href="https://gutentheme.org/go/sale-link/" target="_blank">get $9 off the premium theme now</a>... Sale Ends 5th May', 'guten' ) .' <a href="?guten-layouts-notice-ignore" class="guten-noticemiss">Dismiss</a></p></div>';
-	}
-}
-add_action('admin_notices', 'guten_page_layouts_notice');
-
-function guten_page_layouts_notice_ignore() {
-	global $current_user;
-	
-	$user_id = $current_user->ID;
-	if (isset($_GET['guten-layouts-notice-ignore'])) {
-		add_user_meta($user_id, 'guten_page_layouts_notice_ignore', 'true', true);
-	}
-}
-add_action('admin_init', 'guten_page_layouts_notice_ignore');

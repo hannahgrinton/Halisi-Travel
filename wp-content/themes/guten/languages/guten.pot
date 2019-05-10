@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Guten\n"
-"POT-Creation-Date: 2019-04-30 23:25+0200\n"
+"POT-Creation-Date: 2019-05-09 16:08+0200\n"
 "PO-Revision-Date: 2016-08-27 13:41+0200\n"
 "Last-Translator: \n"
 "Language-Team: Kaira\n"
@@ -1851,7 +1851,7 @@ msgid ""
 "bed\"<br /><br />This will not take brand icons."
 msgstr ""
 
-#: customizer/customizer-options.php:2393 functions.php:443
+#: customizer/customizer-options.php:2393 functions.php:444
 msgid "WooCommerce"
 msgstr ""
 
@@ -1980,32 +1980,23 @@ msgstr ""
 msgid "Guten Footer Custom 5"
 msgstr ""
 
-#: functions.php:432
+#: functions.php:433
 msgid "Contact Form by WPForms"
 msgstr ""
 
-#: functions.php:437
+#: functions.php:438
 msgid "Elementor Page Builder"
 msgstr ""
 
-#: functions.php:448
+#: functions.php:449
 msgid "Breadcrumb NavXT"
 msgstr ""
 
-#: functions.php:453
+#: functions.php:454
 msgid "Meta Slider"
 msgstr ""
 
-#: functions.php:602
-msgid ""
-"Guten Premium now offers Elementor Page Layouts to import!"
-"<br /><br />Use the code <b><i>GUTENPRO</i></b> to <a href="
-"\"https://gutentheme.org/go/sale-link/\" target=\"_blank"
-"\">get $9 off the premium theme now</a>... Sale Ends 5th "
-"May"
-msgstr ""
-
-#: header.php:31
+#: header.php:32
 msgid "Skip to content"
 msgstr ""
 
