@@ -44,7 +44,7 @@
                         <?php printf( __( 'We have a bunch of <a href="%s" target="_blank">Useful Recommendations</a> to try out.', 'guten' ), 'https://gutentheme.org/go/recommend-resources/' ); ?>
                     </div>
                     <div class="guten-upgrade-block-right">
-                        <a href="<?php echo esc_url( 'https://gutentheme.org/go/recommend-resources/' ) ?>" target="_blank" class="guten-upgrade-result-button">
+                        <a href="<?php echo esc_url( 'https://gutentheme.org/go/recommended-resources/' ) ?>" target="_blank" class="guten-upgrade-result-button">
                             <?php _e( 'Recommended Resources', 'guten' ); ?>
                         </a>
                     </div>
