@@ -3,7 +3,7 @@ Contributors: wpninjasllc, kstover, jameslaws, kbjohnson90, klhall1987, krmoorho
 Tags: form, forms, contact form, custom form, form builder, form creator, form manager, form creation, contact forms, custom forms, forms builder, forms creator, forms manager, forms creation, form administration,
 Requires at least: 5.0
 Tested up to: 5.2
-Stable tag: 3.4.11
+Stable tag: 3.4.12
 License: GPLv2 or later
 
 Drag and drop fields in an intuitive UI to create contact forms, email subscription forms, order forms, payment forms, send emails and more!
@@ -111,6 +111,30 @@ For help and video tutorials, please visit our website: [Ninja Forms Documentati
 
 == Upgrade Notice ==
 
+= 3.4.12 (13 May 2019) =
+
+*Bugs:*
+
+* Updated our form load process to better account for reported excessive page load times.
+* Resolved an issue that was causing various add-ons to behave strangely when there were multiple forms on a single page.
+
+*Changes:*
+
+* "Light" opinionated styles are now enabled by default on new Ninja Forms installations.
+
+== Changelog ==
+
+= 3.4.12 (13 May 2019) =
+
+*Bugs:*
+
+* Updated our form load process to better account for reported excessive page load times.
+* Resolved an issue that was causing various add-ons to behave strangely when there were multiple forms on a single page.
+
+*Changes:*
+
+* "Light" opinionated styles are now enabled by default on new Ninja Forms installations.
+
 = 3.4.11 (7 May 2019) =
 
 *Bugs:*
@@ -128,8 +152,7 @@ For help and video tutorials, please visit our website: [Ninja Forms Documentati
 * Added currency support for the Malaysian Ringgit.
 * Added realistic field support for the save button and password field in the form builder.
 * Some settings have been registered as developer options, which will be disabled by default to avoid settings clutter.
-
-== Changelog ==
+* Public links are now available for Ninja Forms! Found next to the publish button, public links provide form access to anyone with the link. Just copy and paste the unique URL and anyone can see and use your form.
 
 = 3.4.10 (15 April 2019) =
 
