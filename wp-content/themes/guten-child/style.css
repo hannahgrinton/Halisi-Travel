@@ -24,23 +24,30 @@ img {
 
 /* style read more button for content management plugin */
 .pt-cv-readmore, .pt-cv-wrapper .btn-success {
-  /* color: #000000 !important; */
-  background-color: #000000 !important;
+  background-color: rgb(214,157,55) !important;
   border: none !important;
+}
+
+/* button text */
+a._self.pt-cv-readmore.btn.btn-success {
+  color: #ffffff;
 }
 
 /* turn off links to posts for content management plugin */
 ._self {
   pointer-events: none !important;
 }
+
 /* make read more buttons clickable */
 .btn {
   pointer-events: all !important;
 }
+
 /* enlarge font size of footer text */
 .site-footer-widgets .widget ul li a, .site-footer .widget a {
   font-size: 1.6rem !important;
 }
+
 /* add a border radius to images on daytour page */
 .pt-cv-thumbnail {
   border-radius: 10px;
