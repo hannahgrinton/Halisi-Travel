@@ -40,3 +40,6 @@ img {
 .site-footer-widgets .widget ul li a, .site-footer .widget a {
   font-size: 1.6rem !important;
 }
+.pt-cv-thumbnail {
+  border-radius: 10px;
+}
