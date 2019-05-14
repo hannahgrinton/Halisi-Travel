@@ -33,6 +33,7 @@ img {
 ._self {
   pointer-events: none !important;
 }
+/* make read more buttons clickable */
 .btn {
   pointer-events: all !important;
 }
@@ -40,6 +41,7 @@ img {
 .site-footer-widgets .widget ul li a, .site-footer .widget a {
   font-size: 1.6rem !important;
 }
+/* add a border radius to images on daytour page */
 .pt-cv-thumbnail {
   border-radius: 10px;
 }
