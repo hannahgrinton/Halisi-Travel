@@ -87,6 +87,10 @@ View the theme settings under "Appearance" -> Customize.
 
 == Changelog ==
 
+#### 1.1.01
+* Styling tweaks/fixes
+* Fix setting "Remove text before Archive Title" causing an error
+
 #### 1.1.00
 * Styling tweaks/fixes
 * Added support & backwards compatibility for new wp_body_open hook

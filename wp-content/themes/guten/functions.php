@@ -4,7 +4,7 @@
  *
  * @package Guten
  */
-define( 'GUTEN_THEME_VERSION' , '1.1.00' );
+define( 'GUTEN_THEME_VERSION' , '1.1.01' );
 
 // Load WP included scripts
 require get_template_directory() . '/includes/inc/template-tags.php';
@@ -490,21 +490,22 @@ add_filter( 'admin_body_class', 'guten_add_admin_body_class' );
 /**
  * Function to remove Category pre-title text
  */
-function guten_cat_title_remove_pretext( $guten_cat_title ) {
-	if ( is_category() ) {
-        $guten_cat_title = the_archive_title( '', false );
-    } elseif ( is_post_type_archive() ) {
-		$guten_cat_title = post_type_archive_title( '', false );
-    } elseif ( is_tag() ) {
-        $guten_cat_title = the_archive_title( '', false );
-    } elseif ( is_author() ) {
-        $guten_cat_title = '<span class="vcard">' . get_the_author() . '</span>' ;
-    }
-    return $guten_cat_title;
+function guten_remove_page_title_pretext( $guten_title ) {
+	if ( get_theme_mod( 'guten-remove-cat-pre-title', customizer_library_get_default( 'guten-remove-cat-pre-title' ) ) ) :
+		if ( is_category() ) {
+			$guten_title = single_cat_title( '', false );
+		} elseif ( is_tag() ) {
+			$guten_title = single_tag_title( '', false );
+		} elseif ( is_post_type_archive() ) {
+			$guten_title = post_type_archive_title( '', false );
+		} elseif ( is_author() ) {
+			$guten_title = '<span class="vcard">' . get_the_author() . '</span>' ;
+		}
+	endif;
+
+    return $guten_title;
 }
-if ( get_theme_mod( 'guten-remove-cat-pre-title', customizer_library_get_default( 'guten-remove-cat-pre-title' ) ) ) :
-	add_filter( 'get_the_archive_title', 'guten_cat_title_remove_pretext' );
-endif;
+add_filter( 'get_the_archive_title', 'guten_remove_page_title_pretext' );
 
 /**
  * Register a custom Post -> Categories ID column
