@@ -208,12 +208,7 @@ function wpsm_acc_r_review() {
 			<a style="color: #fff;background: #ef4238;padding: 5px 7px 4px 6px;border-radius: 4px;" href="https://wordpress.org/support/plugin/responsive-accordion-and-collapse/reviews/?filter=5" class="wpsm-acc-r-dismiss-review-notice wpsm-acc-r-review-out" target="_blank" rel="noopener">Rate the plugin</a>&nbsp; &nbsp;
 			<a style="color: #fff;background: #27d63c;padding: 5px 7px 4px 6px;border-radius: 4px;" href="#"  class="wpsm-acc-r-dismiss-review-notice wpsm-rate-later" target="_self" rel="noopener"><?php _e( 'Nope, maybe later', '' ); ?></a>&nbsp; &nbsp;
 			<a style="color: #fff;background: #31a3dd;padding: 5px 7px 4px 6px;border-radius: 4px;" href="#" class="wpsm-acc-r-dismiss-review-notice wpsm-rated" target="_self" rel="noopener"><?php _e( 'I already did', '' ); ?></a>
-<a style="    color: #fff;
-    background: #5c60d0;
-    padding: 5px 7px 4px 6px;
-    border-radius: 4px;
-    margin-left: 10px;
-    text-decoration: none;" href="https://wpshopmart.com/plugins/accordion-pro/" class="btn btn-primary" target="_blank" rel="noopener"><?php _e( 'Upgrade To Accordion/FAQ Pro Plugin', '' ); ?></a>
+
 			</p>
 	</div>
 	<script type="text/javascript">
