@@ -52,3 +52,53 @@ a._self.pt-cv-readmore.btn.btn-success {
 .pt-cv-thumbnail {
   border-radius: 10px;
 }
+
+/* set font and weight of the event calendar title */
+.tribe-events-page-title {
+  font-family: 'Quicksand', 'Verdana', sans-serif;
+  font-weight: 500;
+}
+
+/* find events button styling */
+input.tribe-events-button.tribe-no-param {
+  background-color: rgb(214,157,55) !important;
+  border-radius: 10px !important;
+}
+
+/* find events header bar styling */
+form.tribe-clearfix.tribe-events-bar--has-filters.tribe-events-bar--has-views.tribe-bar-mini {
+  border-radius: 10px !important;
+}
+
+/* drop down styling */
+div.tribe-bar-views-inner.tribe-clearfix {
+  border-top-right-radius: 10px !important;
+  border-bottom-right-radius: 10px !important;
+}
+
+/* make sure the hidden h2 element is actually hidden */
+h2.tribe-events-visuallyhidden {
+  display: none;
+}
+
+/* main block containing calendar */
+div#primary {
+  border-radius: 10px !important;
+  margin-right: 0;
+  text-align: center;
+  width: 100%;
+}
+
+/* main main block containing the other main blocks */
+div#content {
+  text-align: center;
+}
+
+/* export button styling */
+a.tribe-events-ical.tribe-events-button {
+  background-color: rgb(214,157,55) !important;
+}
+/* round corners for header block */
+.home-slider-block-bg {
+  border-radius: 10px !important;
+}
