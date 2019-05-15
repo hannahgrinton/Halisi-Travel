@@ -98,3 +98,7 @@ div#content {
 a.tribe-events-ical.tribe-events-button {
   background-color: rgb(214,157,55) !important;
 }
+/* round corners for header block */
+.home-slider-block-bg {
+  border-radius: 10px !important;
+}
