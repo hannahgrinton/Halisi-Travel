@@ -85,13 +85,7 @@ h2.tribe-events-visuallyhidden {
 div#primary {
   border-radius: 10px !important;
   margin-right: 0;
-  text-align: center;
   width: 100%;
-}
-
-/* main main block containing the other main blocks */
-div#content {
-  text-align: center;
 }
 
 /* export button styling */
