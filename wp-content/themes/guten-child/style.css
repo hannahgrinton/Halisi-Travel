@@ -102,6 +102,10 @@ button.tribe-bar-collapse-toggle, #tribe-bar-form.tribe-bar-collapse #tribe-bar-
   border-radius: 10px !important;
 }
 
+img.attachment-thumbnail.size-thumbnail {
+  border-radius: 10px !important;
+}
+
 /* add rounded corners to the drop down when the screen changes */
 @media (max-width: 832px) {
   div.tribe-bar-views-inner.tribe-clearfix {
