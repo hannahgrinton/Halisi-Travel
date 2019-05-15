@@ -66,7 +66,7 @@ input.tribe-events-button.tribe-no-param {
 }
 
 /* find events header bar styling */
-form.tribe-clearfix.tribe-events-bar--has-filters.tribe-events-bar--has-views.tribe-bar-mini {
+form.tribe-clearfix.tribe-events-bar--has-filters.tribe-events-bar--has-views.tribe-bar-mini, .tribe-bar-filters-inner .tribe-clearfix, .tribe-bar-filters-inner .tribe-clearfix, .tribe-clearfix .tribe-events-bar--has-filters .tribe-events-bar--has-views .tribe-bar-full, #tribe-bar-form {
   border-radius: 10px !important;
 }
 
@@ -95,4 +95,16 @@ a.tribe-events-ical.tribe-events-button {
 /* round corners for header block */
 .home-slider-block-bg {
   border-radius: 10px !important;
+}
+
+/* button that appears at the smaller screen size on the calendar page */
+button.tribe-bar-collapse-toggle, #tribe-bar-form.tribe-bar-collapse #tribe-bar-collapse-toggle {
+  border-radius: 10px !important;
+}
+
+/* add rounded corners to the drop down when the screen changes */
+@media (max-width: 832px) {
+  div.tribe-bar-views-inner.tribe-clearfix {
+    border-radius: 10px !important;
+  }
 }
