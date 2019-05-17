@@ -105,6 +105,10 @@ button.tribe-bar-collapse-toggle, #tribe-bar-form.tribe-bar-collapse #tribe-bar-
 img.attachment-thumbnail.size-thumbnail {
   border-radius: 10px !important;
 }
+/* set width to bottom bar to prevent overlap */
+.site-footer-bottom-bar > .site-container {
+  width: 85% !important;
+}
 
 /* add rounded corners to the drop down when the screen changes */
 @media (max-width: 832px) {
